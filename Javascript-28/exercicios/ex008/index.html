@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números com JS</title>
+    <style>
+        body { font: 12pt Arial; }
+        button { font-size: 12pt; padding: 30px; }
+    </style>
+</head>
+<body>
+    <h1>Vários cálculos em JS</h1>
+    <button onclick="calcular()">Clique para calcular</button>
+    <section id="result">
+        <p>O resultado vai aparecer aqui...</p>
+    </section>
+
+    <script>
+        function calcular() {
+            let num = Number(window.prompt('Digite'))
+
+            let res = document.querySelector('section#result')
+            res.innerHTML += `<p> O numero a ser analisado aqui será o <strong>${num}</strong></p>`
+            res.innerHTML += `<p> O seu valor absoluto é ${Math.abs(num)}</p>`
+            res.innerHTML += `<p>A sua parte inteira é ${Math.trunc(num)}</p>
+            res.innerHTML +=
+            res.innerHTML +=
+            res.innerHTML +=
+            res.innerHTML +=
+            res.innerHTML +=
+            res.innerHTML +=
+
+        }
+        
+    </script>
+</body>
+</html>
